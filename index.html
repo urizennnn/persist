@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neighborhood Interest Form</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h2>Neighborhood Interest Form</h2>
+    <form id="interestForm" action="homepage/home.html">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+      <label for="contact">Contact:</label>
+      <select id="contact" required>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+        <option value="address">Location</option>
+      </select>
+      <label for="contact">Input Chosen Information accordingly:</label>
+      <input type="text" id="contact" required />
+      <br />
+
+      <!-- Shared Activities -->
+      <h3>Shared Activities</h3>
+      <label for="walking">
+        <input
+          type="checkbox"
+          id="walking"
+          name="sharedActivity"
+          value="Walking"
+        />
+        Walking
+      </label>
+      <label for="running">
+        <input
+          type="checkbox"
+          id="running"
+          name="sharedActivity"
+          value="Running"
+        />
+        Running
+      </label>
+      <label for="jogging">
+        <input
+          type="checkbox"
+          id="jogging"
+          name="sharedActivity"
+          value="Jogging"
+        />
+        Jogging
+      </label>
+      <label for="bicycling">
+        <input
+          type="checkbox"
+          id="bicycling"
+          name="sharedActivity"
+          value="Bicycling"
+        />
+        Bicycling
+      </label>
+
+      <p>Animal-walking</p>
+      <select id="animal-walking" name="sharedActivity">
+        <option value=""></option>
+        <option value="Dog">Dog</option>
+        <option value="Cat">Cat</option>
+      </select>
+
+      <p>Gardening</p>
+      <select id="gardeningSelect" name="sharedActivity">
+        <option value=""></option>
+        <option value="flowers">Flowers/Landscape</option>
+        <option value="fruitveg">Fruit/Veg</option>
+        <option value="both">Both</option>
+      </select>
+
+      <p>Swimming</p>
+      <select id="swimming" name="sharedActivity">
+        <option value=""></option>
+        <option value="backyard">My Backyard</option>
+        <option value="Public-Pool">Public Pool</option>
+        <option value="Health-club Pool">Health Club Pool</option>
+      </select>
+
+      <p>Art</p>
+      <select id="Art" name="sharedActivity">
+        <option value=""></option>
+        <option value="Sketching">Sketching</option>
+        <option value="Drawing">Drawing</option>
+        <option value="Painting">Painting</option>
+      </select>
+
+      <p>Eats</p>
+      <select id="Eats" name="sharedActivity">
+        <option value=""></option>
+        <option value="Cookouts">Cookouts</option>
+        <option value="BBQs">BBQs</option>
+      </select>
+
+      <label for="Block-parties">
+        <input
+          type="checkbox"
+          id="Block-parties"
+          name="sharedActivity"
+          value="Block parties"
+        />
+        Block parties
+      </label>
+
+      <label for="Dinner-parties">
+        <input
+          type="checkbox"
+          id="Dinner-parties"
+          name="sharedActivity"
+          value="Dinner-parties"
+        />
+        Dinner-parties
+      </label>
+
+      <p>Games</p>
+      <select id="Games" name="sharedActivity">
+        <option value=""></option>
+        <option value="E-Sports">E-Sports</option>
+        <option value="In-Person">In-Person</option>
+      </select>
+
+      <label for="sports">
+        <input
+          type="checkbox"
+          id="sports"
+          name="sharedActivity"
+          value="Sports"
+        />
+        Sports
+      </label>
+
+      <label for="Shopping">
+        <input
+          type="checkbox"
+          id="Shopping"
+          name="sharedActivity"
+          value="Shopping"
+        />
+        Shopping
+      </label>
+
+      <label for="Movies">
+        <input
+          type="checkbox"
+          id="Movies"
+          name="sharedActivity"
+          value="Movies"
+        />
+        Movies
+      </label>
+
+      <label for="Restaurants">
+        <input
+          type="checkbox"
+          id="Restaurants"
+          name="sharedActivity"
+          value="Restaurants"
+        />
+        Restaurants
+      </label>
+
+      <p>Happy Hour</p>
+      <select id="happy-hour" name="sharedActivity">
+        <option value=""></option>
+        <option value="Quarterly">Quarterly</option>
+        <option value="Monthly">Monthly</option>
+        <option value="Weekly">Weekly</option>
+        <option value="Outdoors">Outdoors</option>
+      </select>
+
+      <!-- Favors -->
+      <h3>Favors</h3>
+      <p>Errands</p>
+      <select id="Errands" name="Favors">
+        <option value=""></option>
+        <option value="Emergencies">Emergencies</option>
+        <option value="Occasional">Occasional</option>
+        <option value="Regular/Frequent">Regular/Frequent</option>
+      </select>
+
+      <p>Rides</p>
+      <select id="Rides" name="Favors">
+        <option value=""></option>
+        <option value="Emergencies">Emergencies</option>
+        <option value="Occasional">Occasional</option>
+        <option value="Regular/Frequent">Regular/Frequent</option>
+      </select>
+
+      <p>Childcare</p>
+      <select id="Childcare" name="Favors">
+        <option value=""></option>
+        <option value="Emergencies">Emergencies</option>
+        <option value="Occasional">Occasional</option>
+        <option value="Regular/Frequent">Regular/Frequent</option>
+      </select>
+
+      <p>Eldercare</p>
+      <select id="Eldercare" name="Favors">
+        <option value=""></option>
+        <option value="Emergencies">Emergencies</option>
+        <option value="Occasional">Occasional</option>
+        <option value="Regular/Frequent">Regular/Frequent</option>
+      </select>
+
+      <p>Petcare</p>
+      <select id="Petcare" name="Favors">
+        <option value=""></option>
+        <option value="Emergencies">Emergencies</option>
+        <option value="Occasional">Occasional</option>
+        <option value="Regular/Frequent">Regular/Frequent</option>
+      </select>
+
+      <label for="Tutoring">Tutoring</label>
+      <input id="Tutoring" name="Favors" type="text" />
+
+      <p>Repair Advice</p>
+      <select id="Repair-Advice" name="Favors">
+        <option value=""></option>
+        <option value="Home-repair">Home-repair</option>
+        <option value="Auto-repair">Auto-repair</option>
+      </select>
+
+      <p>Other Advice</p>
+      <select id="Other-Advice" name="Favors">
+        <option value=""></option>
+        <option value="Garden/landscape">Garden/landscape</option>
+        <option value="Computer">Computer</option>
+      </select>
+
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
